@@ -4,3 +4,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+img#perfimage{
+    border-radius: 50%;
+    height: 150px;
+    border: 2px solid blue;
+}

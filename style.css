@@ -4,7 +4,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+header{
+    background-color: blue;
+}
 img#perfimage{
     border-radius: 50%;
     height: 150px;

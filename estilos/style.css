@@ -48,8 +48,26 @@ header nav#menu ul li a:hover{
   cursor: pointer;
 }
 
-img#foto{
+
+main section#ficha{
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 20px;
+}
+main section#ficha img#foto{
     border-radius: 50%;
-    height: 150px;
-    border: 2px solid var(--destaque);
+    height: 200px;
+    border: 5px solid var(--fundo-card);
+    outline: 5px solid var(--destaque);
+    display: block;
+    margin: auto;
+
+}
+main section#ficha h1{
+  color: var(--destaque);
+  margin: 20px 0px;
+  text-align: center;
+}
+main section#ficha p{
+  text-align: justify;
 }

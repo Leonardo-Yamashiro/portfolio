@@ -48,7 +48,7 @@ header nav#menu ul li a:hover{
   cursor: pointer;
 }
 
-img#perfimage{
+img#foto{
     border-radius: 50%;
     height: 150px;
     border: 2px solid var(--destaque);

@@ -85,4 +85,5 @@ main section#ficha div#social a{
 }
 main section#ficha div#social a:hover{
   color: var(--destaque-inverso);
+  cursor: pointer;
 }

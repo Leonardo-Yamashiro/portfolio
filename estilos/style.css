@@ -78,6 +78,7 @@ main section#ficha h1{
 }
 main section#ficha p{
   text-align: justify;
+  padding: 0px 20px;
 }
 main section#ficha div#social{
   display: flex;

@@ -171,18 +171,25 @@ main section#detalhes article h2{
 .formacao-container{
   display: flex;
   flex-flow: column nowrap;
-  gap: 20px;
+  gap: 10px;
   padding: 0 10px 10px 10px;
 }
 .formacao-container .curso{
   background-color: var(--fundo-principal);
   border-radius: 10px;
   border-left: 5px solid var(--destaque);
+  border-right: 2px solid var(--fundo-card);
+  border-bottom: 2px solid var(--fundo-card);
+  border-top: 2px solid var(--fundo-card);
   padding-left: 5px;
-  transition: border 0.5s;
+  transition: border 0.5s , background-color 0.5s;
 }
 .formacao-container .curso:hover{
+  background-color: var(--fundo-card);
   border-left: 15px solid var(--destaque-inverso);
+  border-right: 2px solid var(--destaque-inverso);
+  border-bottom: 2px solid var(--destaque-inverso);
+  border-top: 2px solid var(--destaque-inverso);
   cursor: pointer;
 }
 .formacao-container .curso .periodo{

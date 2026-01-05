@@ -227,10 +227,17 @@ main section#detalhes article h2{
   padding: 10px;
   border-radius: 10px;
   border-left: 5px solid var(--destaque);
+  border-right: 2px solid var(--fundo-card);
+  border-bottom: 2px solid var(--fundo-card);
+  border-top: 2px solid var(--fundo-card);
   transition: border 0.5s;
 }
 #projeto-container .projeto:hover{
+  background-color: var(--fundo-card);
   border-left: 15px solid var(--destaque-inverso);
+  border-right: 2px solid var(--destaque-inverso);
+  border-bottom: 2px solid var(--destaque-inverso);
+  border-top: 2px solid var(--destaque-inverso);
   cursor: pointer;
 }
 #projeto-container .foto{

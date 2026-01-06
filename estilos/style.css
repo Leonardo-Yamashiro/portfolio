@@ -186,11 +186,18 @@ section#detalhes article h2{
   background-color: var(--fundo-principal);
   border-radius: 10px;
   border-left: 5px solid var(--destaque);
+  border-top: 1px solid var(--fundo-principal);
+  border-bottom: 1px solid var(--fundo-principal);
+  border-right: 1px solid var(--fundo-principal);
   padding-left: 5px;
-  transition: border 0.5s;
+  transition: border 0.5s, background-color 0.7s;
 }
 .formacao-container .curso:hover{
   border-left: 15px solid var(--destaque-inverso);
+  border-top: 1px solid var(--destaque-inverso);
+  border-bottom: 1px solid var(--destaque-inverso);
+  border-right: 1px solid var(--destaque-inverso);
+  background-color: var(--fundo-card);
   cursor: pointer;
 }
 .formacao-container .curso .periodo{
@@ -223,10 +230,17 @@ section#detalhes article h2{
   padding: 10px;
   border-radius: 10px;
   border-left: 5px solid var(--destaque);
-  transition: border 0.5s;
+  border-top: 1px solid var(--fundo-principal);
+  border-bottom: 1px solid var(--fundo-principal);
+  border-right: 1px solid var(--fundo-principal);
+  transition: border 0.5s, background-color 0.7s;
 }
 #projeto-container .projeto:hover{
   border-left: 15px solid var(--destaque-inverso);
+  border-top: 1px solid var(--destaque-inverso);
+  border-bottom: 1px solid var(--destaque-inverso);
+  border-right: 1px solid var(--destaque-inverso);
+  background-color: var(--fundo-card);
   cursor: pointer;
 }
 #projeto-container .foto{

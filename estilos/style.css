@@ -99,7 +99,6 @@ section#ficha h1{
   line-height: 1em;
 }
 section#ficha p{
-  text-align: start;
   color: var(--texto);
   padding-bottom: 20px;
 }
@@ -119,10 +118,6 @@ section#ficha div#social a:hover{
   color: var(--destaque-inverso);
   cursor: pointer;
 }
-section#detalhes article p{
-  text-align: justify;
-  color: var(--texto);
-}
 
 
 
@@ -139,6 +134,10 @@ section#detalhes article h2{
   color: var(--destaque);
   padding: 10px;
   text-align: center;
+}
+section#detalhes article p{
+  text-align: justify;
+  color: var(--texto);
 }
 
 

@@ -276,9 +276,12 @@ footer a{
   transition: 0.5s;
 }
 footer a:hover{
+  display: block;
   color: var(--destaque-inverso);
 }
-
+#textofim{
+  display: none;
+}
 
 
 /*-----Media Query-----*/
@@ -315,5 +318,14 @@ footer a:hover{
     aspect-ratio: 1/1;
     max-width: 20%;
     max-height: 200px;
+  }
+
+  #textoinicio{
+    display: none;
+  }
+  #textofim{
+    display: block;
+    text-align: center;
+    color: var(--destaque);
   }
 }

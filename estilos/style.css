@@ -171,6 +171,10 @@ section#detalhes article p{
   font-weight: bold;
   color: var(--texto);
 }
+#skill-container .nome-destaque{
+  font-weight: bold;
+  color: var(--destaque);
+}
 #skill-container .porcent{
   font-weight: bold;
   color: var(--destaque);

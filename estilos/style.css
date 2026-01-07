@@ -148,6 +148,9 @@ section#detalhes article p{
   color: var(--texto);
   padding: 10px;
 }
+
+
+
 /*-----Seção de Skills-----*/
 #skill-container{
   display: grid;
@@ -316,10 +319,7 @@ footer a:hover{
     grid-template-columns: 1fr 1fr;
   }
 
-  .formacao-container{
-    flex-flow: column-reverse nowrap;
-  }
-
+  
   #projeto-container .projeto{
     flex-direction: row-reverse;
     justify-content: space-between;

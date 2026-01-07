@@ -263,10 +263,16 @@ section#detalhes article p{
 }
 #projeto-container .foto{
   width: 100%;
+}
+#projeto-container a{
+  text-decoration: none;
+}
+#projeto-container .foto img{
+  width: 100%;
+  border-radius: 10px;
   aspect-ratio: 16/9;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 10px;
 }
 #projeto-container .titulo{
   color: var(--destaque);
@@ -331,10 +337,14 @@ footer a:hover{
     max-width: 80%;
   }
   #projeto-container .foto{
-    aspect-ratio: 1/1;
-    max-width: 20%;
     max-height: 200px;
+    width: 20%;
   }
+  #projeto-container .foto img{
+    aspect-ratio: 1/1;
+    height: 100%;
+  }
+
 
   #textoinicio{
     display: none;

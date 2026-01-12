@@ -283,7 +283,12 @@ section#detalhes article p{
   font-weight: bold;
   color: var(--texto);
 }
-
+#projeto-container .descricao{
+  padding-left: 10px;
+}
+#projeto-container summary{
+  font-weight: bold;
+}
 
 
 /*-----FIM-----*/

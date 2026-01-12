@@ -304,9 +304,6 @@ footer a:hover{
   color: var(--destaque-inverso);
 }
 
-#textofim{
-  display: none;
-}
 
 
 /*-----Media Query-----*/
@@ -343,16 +340,5 @@ footer a:hover{
   #projeto-container .foto img{
     aspect-ratio: 1/1;
     height: 100%;
-  }
-
-
-  #textoinicio{
-    display: none;
-  }
-  #textofim{
-    display: block;
-    text-align: center;
-    color: var(--destaque);
-    padding: 20px;
   }
 }

@@ -236,7 +236,7 @@ section#detalhes article p{
 /*-----Seção de Projetos-----*/
 #projeto-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 20px;
   padding: 0 10px 20px 10px;
 }

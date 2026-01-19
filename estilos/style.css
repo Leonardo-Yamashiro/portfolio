@@ -351,6 +351,7 @@ footer a:hover{
 
 
 .importante{
+  font-size: 1em;
   font-weight: bolder;
   color: var(--destaque);
 }

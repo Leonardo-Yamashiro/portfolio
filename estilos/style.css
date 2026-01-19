@@ -234,6 +234,41 @@ section#detalhes article p{
 
 
 /*-----Seção de Experiencia-----*/
+#experiencia-container{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0px 10px 10px 10px;
+}
+#experiencia-container .experiencia{
+  background-color: var(--fundo-principal);
+  border-radius: 10px;
+  border-left: 5px solid var(--destaque);
+  border-top: 1px solid var(--fundo-principal);
+  border-bottom: 1px solid var(--fundo-principal);
+  border-right: 1px solid var(--fundo-principal);
+  padding-left: 5px;
+  transition: border 0.5s, background-color 0.7s;
+}
+#experiencia-container .experiencia:hover{
+  border-left: 15px solid var(--destaque-inverso);
+  border-top: 1px solid var(--destaque-inverso);
+  border-bottom: 1px solid var(--destaque-inverso);
+  border-right: 1px solid var(--destaque-inverso);
+  background-color: var(--fundo-card);
+  cursor: pointer;
+}
+#experiencia-container .experiencia .periodo{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--texto);
+}
+#experiencia-container .local{
+  color: var(--destaque);
+  font-size: 1.1em;
+}
+#experiencia-container .descricao{
+  color: var(--texto);
+}
 
 
 

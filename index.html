@@ -460,6 +460,13 @@
 
     <footer>
         <a href="https://www.linkedin.com/in/leonardo-siqueira-yamashiro-6a685b179/" target="_blank" rel="nofollow">Leonardo Siqueira Yamashiro</a>
+        <?php
+            date_default_timezone_set("America/Sao_Paulo");
+            echo "<p>Hoje é dia " . date("d/M/Y");
+            echo ", horário " . date("G:i:s");
+            echo ", Zona de Tempo " . date("T");
+            echo "</p>";
+        ?>
     </footer>
 </body>
 </html>

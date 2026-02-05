@@ -99,7 +99,7 @@ section#ficha h1{
 }
 section#ficha p{
   color: var(--texto);
-  padding: 2px;
+  padding-bottom: 7px;
 }
 section#ficha div#social{
   display: flex;
@@ -117,9 +117,11 @@ section#ficha div#social a:hover{
   cursor: pointer;
 }
 section#ficha .socialinfo{
+  padding: 0px;
   color: var(--destaque);
   font-weight: bold;
   font-size: 0.8em;
+  text-align: center;
 } 
 
 

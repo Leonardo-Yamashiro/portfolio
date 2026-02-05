@@ -99,14 +99,14 @@ section#ficha h1{
 }
 section#ficha p{
   color: var(--texto);
-  padding-bottom: 10px;
+  padding: 2px;
 }
 section#ficha div#social{
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
-  gap: 20px;
+  gap: 30px;
 }
 section#ficha div#social a{
   color: var(--destaque);
@@ -116,6 +116,11 @@ section#ficha div#social a:hover{
   color: var(--destaque-inverso);
   cursor: pointer;
 }
+section#ficha .socialinfo{
+  color: var(--destaque);
+  font-weight: bold;
+  font-size: 0.8em;
+} 
 
 
 
